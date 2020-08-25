@@ -3,6 +3,6 @@ twig:
     debug: '%kernel.debug%'
     strict_variables: '%kernel.debug%'
     globals:
-        #CategoriesService: '@App\Service\CategoriesService'
+        CategoriesService: '@App\Service\CategoriesService'
     form_themes:
         - 'bootstrap_4_layout.html.twig'
